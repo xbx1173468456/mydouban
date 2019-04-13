@@ -1,0 +1,15 @@
+//-----------------------------------在线报名----------------------------------//
+$(".form-sing_up").Validform({
+    tipSweep: true,
+    tiptype: function (msg, o, cssctl) {
+        if (msg != "true") {
+            alert(msg);
+        }
+    }
+});
+
+
+//-----------------------------------在线咨询----------------------------------//
+function ds_dialogue() {
+	window.location.href='http://plt.zoosnet.net/LR/Chatpre.aspx?id=PLT52955110&lng=cn'
+}
